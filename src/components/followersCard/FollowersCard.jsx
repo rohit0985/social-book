@@ -5,6 +5,7 @@ import { followers } from '../../Data/followersData'
 const FollowersCard = () => {
   return (
     <div className='followersCard'>
+    <h4>Who are following you...</h4>
      {
         followers.length && followers.map((follower, idx)=> {
             return (
