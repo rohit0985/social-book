@@ -51,6 +51,7 @@
   gap: 1rem;
   width: 80%;
   align-items: center;
+  justify-content: space-around;
 }
 .follow, .following{
   display: flex;
