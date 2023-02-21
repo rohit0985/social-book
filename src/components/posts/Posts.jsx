@@ -9,7 +9,7 @@ const Posts = () => {
      {
       postsData && postsData.map((post, idx)=>{
         return(
-          <Post data = {post}/>
+          <Post data = {post} key={idx}/>
         )
       })
      }
