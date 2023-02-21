@@ -34,6 +34,7 @@
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: none;
 }
 .webname>h6{
     font-size: .85rem;
